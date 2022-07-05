@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Caveat', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+}
+
+.top-section-bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../images/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+}
+
+.top-section-content {
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-color: rgb(255, 83, 53);
+    color: white;
+    padding: 12px 30px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+}
