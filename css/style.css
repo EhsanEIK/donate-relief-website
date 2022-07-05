@@ -23,6 +23,18 @@ section {
     margin-top: 10%;
 }
 
+#grey-color-card {
+    background-color: rgba(192, 190, 190, 0.4);
+}
+
+#water-color-card {
+    background-color: rgba(178, 199, 199, 0.4);
+}
+
+#pink-color-card {
+    background-color: rgba(240, 188, 245, 0.4);
+}
+
 .common-content-style {
     text-align: center;
     width: 50%;
@@ -75,4 +87,20 @@ section {
 
 hr {
     border-top: 1px solid rgb(185, 185, 185);
+}
+
+.card-body {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-body div {
+    width: 100%;
+    margin: 20px;
+    padding: 25px;
+}
+
+.card-body p {
+    color: rgb(153, 152, 152);
 }
