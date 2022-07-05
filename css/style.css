@@ -16,23 +16,18 @@ p {
 }
 
 section {
-    display: flex;
+    margin-top: 10%;
 }
 
-.top-section-bg-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../images/donation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+#top-section-content-top-margin {
+    margin-top: 10%;
 }
 
-.top-section-content {
+.common-content-style {
     text-align: center;
-    color: white;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 10%;
 }
 
 .link-btn {
@@ -43,4 +38,41 @@ section {
     display: inline-block;
     margin-top: 10px;
     border-radius: 20px;
+}
+
+.top-section-bg-img {
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../images/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 0;
+}
+
+.white-color {
+    color: white;
+}
+
+.orange-color {
+    color: rgb(206, 67, 25);
+}
+
+.donate-amount-section {
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.donate-amount-section h2 {
+    padding: 40px;
+}
+
+.red-mark-border {
+    border: 2px solid red;
+    background-color: rgb(228, 190, 190);
+    color: rgb(219, 63, 63);
+}
+
+hr {
+    border-top: 1px solid rgb(185, 185, 185);
 }
