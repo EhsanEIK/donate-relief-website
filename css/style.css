@@ -179,6 +179,8 @@ footer p {
 
 .gallery-section div {
     margin-right: 5%;
+    width: 400px;
+    height: 340px;
 }
 
 .gallery-section img:hover {
