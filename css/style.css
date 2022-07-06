@@ -33,9 +33,10 @@ section {
 
 #mail-input {
     background-color: rgba(189, 189, 189, 0.7);
-    width: 30%;
-    padding: 18px;
-    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    padding: 16px;
+    border-radius: 10px 0 0 10px;
     border-style: none;
 }
 
@@ -62,14 +63,27 @@ section {
     margin-right: 25%;
 }
 
-.link-btn {
+.btn-style {
     text-decoration: none;
     background-color: rgb(255, 83, 53);
     color: white;
-    padding: 15px 20px;
+}
+
+#donate-btn {
     display: inline-block;
     margin-top: 10px;
+    padding: 15px 20px;
     border-radius: 5px;
+}
+
+#subscribe-btn {
+    position: relative;
+    width: 100px;
+    height: 52px;
+    left: -5px;
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
 }
 
 .top-section-bg-img {
