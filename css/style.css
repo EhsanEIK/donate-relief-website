@@ -168,22 +168,22 @@ footer p {
 
 .gallery-section {
     display: flex;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 12%;
+    margin-top: 2%;
 }
 
 .gallery-section img {
-    width: 360px;
-    height: 300px;
+    width: 260px;
+    height: 200px;
 }
 
 .gallery-section div {
     margin-right: 5%;
-    width: 400px;
-    height: 340px;
+    width: 300px;
+    height: 240px;
 }
 
 .gallery-section img:hover {
-    width: 400px;
-    height: 340px;
+    width: 300px;
+    height: 240px;
 }
