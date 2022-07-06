@@ -58,10 +58,10 @@ input {
     text-decoration: none;
     background-color: rgb(255, 83, 53);
     color: white;
-    padding: 12px 30px;
+    padding: 15px 30px;
     display: inline-block;
     margin-top: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .top-section-bg-img {
