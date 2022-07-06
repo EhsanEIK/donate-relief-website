@@ -74,7 +74,7 @@ section {
 
 .top-section-bg-img {
     display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../images/donation.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../images/donation-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -123,7 +123,13 @@ section {
 .card-body div {
     width: 100%;
     margin: 20px;
-    padding: 25px;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.card-body img {
+    height: 60px;
+    width: 60px;
 }
 
 footer {
@@ -158,4 +164,24 @@ footer p {
 .email-part input,
 .email-part a {
     margin-top: 20px;
+}
+
+.gallery-section {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.gallery-section img {
+    width: 360px;
+    height: 300px;
+}
+
+.gallery-section div {
+    margin-right: 5%;
+}
+
+.gallery-section img:hover {
+    width: 400px;
+    height: 340px;
 }
